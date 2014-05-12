@@ -1,0 +1,26 @@
+{
+  "name": "ng-app-kit",
+  "version": "0.0.0",
+  "authors": [
+    "Blessan Mathew <blessenm@gmail.com>"
+  ],
+  "description": "A starting point for angular applications.",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "angular": "1.2.16",
+    "angular-ui-router": "~0.2.10",
+    "livereload": "~2.0.8"
+  }
+}
