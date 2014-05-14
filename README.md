@@ -25,17 +25,21 @@ The folder structure is as the following
 
 ```
 - app
-  Contains all the application files. Controller, Directives, Services.. etc are put in separate files in their respective folders.
-  The naming convention of these files are based on the state name inside the router.js. For filters, the name of the file is its name hyphentated.
+  Contains all the application files. Controller, Directives, Services.. etc are put in separate files in their 
+  respective folders.
+  The naming convention of these files are based on the state name inside the router.js. 
+  For filters, the name of the file is its name hyphentated.
   
 - public
-   This folder contains all the files that should not be processed such as images, fonts. The contents in this folder will be copied and deployed. These resources can be assets via '/' inside your application.
+   This folder contains all the files that should not be processed such as images, fonts. 
+   The contents in this folder will be copied and deployed. 
+   These resources can be assets via '/' inside your application.
 ```
 
-To install external dependicies such as Jquery, add the depenedency to bower.json and run the command `bower install`. The js file to be used in the application should be added to the vendorFiles object inside the Gruntfile.js.
+To install external dependicies such as Jquery, add the depenedency to bower.json and run the command `bower install`. The js file to be used in the application should be added to the vendorFiles object inside the `grunt/vendor.json` file.
 
 
-This is usable but not used in a real world applicatoin yet. 
+This is usable but not used in a real world application yet. 
 
 Issues Or Contributions
 
