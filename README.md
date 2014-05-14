@@ -25,8 +25,8 @@ The folder structure is as the following
 
 ```
 - app
-  Contains all the application files. Controller, Directives, Services.. etc are put in separate files in their 
-  respective folders.
+  Contains all the application files. Controller, Directives, Services.. etc are put in separate
+  files in their respective folders.
   The naming convention of these files are based on the state name inside the router.js. 
   For filters, the name of the file is its name hyphentated.
   
