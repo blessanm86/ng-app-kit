@@ -13,15 +13,17 @@ module.exports = function(grunt) {
   
   grunt.registerTask('default', [
     'clean:dev',
-    'copy:dev',
     'ngconstant:dev',
+    'sass:dev',
+    'copy:dev',    
     'injector:dev'
   ]);
   
   grunt.registerTask('dist', [
     'clean:dist',
-    'copy:dist',
     'ngconstant:dist',
+    'sass:dev',
+    'copy:dist',    
     'uglify:dist',
     'connect:dist'
   ]);
