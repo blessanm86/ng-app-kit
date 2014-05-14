@@ -11,14 +11,14 @@ To use this,
 
 
 This is a boilerplate + cli tool sytstem for angular applications.
-The cli commands are
+The cli commands are 
 
 ```
  1. grunt - Will run the application in developer mode.
- 2. grunt dist - Will compile the application in distribution mode.
+ 2. grunt dist - Will compile the application in distribution mode and startup a server.
  3. grunt connect:dev - Will start up a server and run the dev version of the application.
  4. grunt connect:dist - Will start up a server and run the dev version of distribution application.
- 5. grunt watch:dev - Will run grunt task if changes happen in the app directory.
+ 5. grunt watch:dev - Will run grunt default task if changes happen in the app directory.
 ``` 
  
 The folder structure is as the following
