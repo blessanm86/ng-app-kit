@@ -1,0 +1,11 @@
+{
+  "scripts": [
+    "vendor/jquery/dist/jquery.js",
+    "vendor/angular/angular.js",
+    "vendor/angular-ui-router/release/angular-ui-router.js",
+    "vendor/livereload/dist/livereload.js"
+  ],
+  "styles": [
+    
+  ]
+}
