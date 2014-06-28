@@ -12,6 +12,9 @@ module.exports = {
       //Copy the vendor script files
       { expand: true, flatten: true, src: vendorFiles.scripts, dest: 'temp/vendor/' },
 
+      //Copy the livereload script files
+      { expand: true, flatten: true, src: 'vendor/livereload/dist/livereload.js', dest: 'temp/' },
+
       //Copy the css file
       { expand: true, cwd: 'app/styles/', src: ['**/*.css'], dest: 'temp/assets' },
 

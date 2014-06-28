@@ -26,6 +26,7 @@ module.exports = function(grunt) {
     'sass:dev',
     'copy:dist',
     'uglify:dist',
+    'injector:dist',
     'connect:dist'
   ]);
 

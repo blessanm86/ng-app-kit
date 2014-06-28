@@ -5,7 +5,8 @@ module.exports = {
       base: 'temp',
       keepalive: true,
       hostname: '127.0.0.1',
-      livereload: true
+      livereload: true,
+      debug: true
     }
   },
   dist: {
@@ -13,8 +14,7 @@ module.exports = {
       port: 9002,
       base: 'dist',
       keepalive: true,
-      hostname: '127.0.0.1',
-      livereload: true
+      hostname: '127.0.0.1'
     }
   }
 };
