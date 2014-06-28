@@ -8,13 +8,13 @@ angular.module('nakApp').config(['$stateProvider', '$urlRouterProvider', functio
         })
 
         .state('home.fruits', {
-            url: 'fruits',
+            url: 'home/fruits',
             templateUrl: './app/templates/home/fruits.html',
             controller: 'HomeFruitsController'
         })
 
         .state('home.cars', {
-            url: 'cars',
+            url: 'home/cars',
             templateUrl: './app/templates/home/cars.html',
             controller: 'HomeCarsController'
         });
