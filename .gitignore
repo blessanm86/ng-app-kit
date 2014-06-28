@@ -3,3 +3,4 @@ temp
 dist
 node_modules
 /app/config-generated.js
+/.sass-cache
