@@ -17,7 +17,8 @@ The cli commands are
  1. grunt - Will build the application and watch changes to the application files and rebuild.
  2. grunt dist - Will compile the application in distribution mode and startup a server.
  3. grunt connect:dev - Will start up a server and run the dev version of the application.
-    Use this along with the `grunt` command for the server to reload automatically based on the changes to the application.
+    Use this along with the `grunt` command for the server to reload automatically based on the changes
+    to the application.
 ```
 
 Run these 2 commands on 2 separate terminals during development - `grunt`, `grunt connect:dev`. These commands will rebuild the application for every change in the application and automatically reload the server.
