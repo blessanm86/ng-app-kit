@@ -3,25 +3,44 @@ ng App Kit
 
 A starting point for angular applications. Both the tool system and boilerplate is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit).
 
+Features
+
+1. Automatic insertion of app scripts into index.html.
+2. Configuration data is picked from the config json files and converted to an angular constants module.
+3. All js files are linted using jshint.
+4. Livereload support.
+6. Minification, concatenation of files for deployment.
+
 To use this,
 
-1. Download the repository.
-2. Run `npm install` on the repo location.
-3. Use the below commands to run the application.
+1. Install the dependencies node, bower, grunt and sass.
+2. Download the repository.
+3. Run `npm install` on the repo location.
+4. Use the below commands to run the application.
 
 
 This is a boilerplate + cli tool sytstem for angular applications.
 The cli commands are
 
 ```
- 1. grunt - Will build the application and watch changes to the application files and rebuild.
- 2. grunt dist - Will compile the application in distribution mode and startup a server.
- 3. grunt connect:dev - Will start up a server and run the dev version of the application.
-    Use this along with the `grunt` command for the server to reload automatically based on the changes
-    to the application.
+ 1. grunt 
+    
+        Will build the application.
+ 
+ 2. grunt watch 
+    
+        Watch changes to the application files and rebuild.
+ 
+ 3. grunt dist
+   
+        Will compile the application in distribution mode and startup a server.
+ 
+ 4. grunt server
+ 
+        Will start up a server and run the dev version of the application. Use this along with the `grunt` command for the server to reload automatically based on the changes to the application.
 ```
 
-Run these 2 commands on 2 separate terminals during development - `grunt`, `grunt connect:dev`. These commands will rebuild the application for every change in the application and automatically reload the server.
+Run these 2 commands on 2 separate terminals during development - `grunt`, `grunt server`. These commands will rebuild the application for every change in the application and automatically reload the server.
 
 The folder structure is as the following
 

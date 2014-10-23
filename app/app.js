@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('nakApp.filters', []);
 angular.module('nakApp.services', []);
 angular.module('nakApp.directives', []);

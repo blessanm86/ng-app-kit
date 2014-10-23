@@ -13,15 +13,16 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'clean:dev',
+    'jshint:dev',
     'ngconstant:dev',
     'sass:dev',
     'copy:dev',
-    'injector:dev',
-    'watch'
+    'injector:dev'
   ]);
 
   grunt.registerTask('dist', [
     'clean:dist',
+    'jshint:dev',
     'ngconstant:dist',
     'sass:dev',
     'copy:dist',
@@ -29,6 +30,8 @@ module.exports = function(grunt) {
     'injector:dist',
     'connect:dist'
   ]);
+  
+  grunt.registerTask('server', ['connect:dev']);
 
   grunt.initConfig(config);
 };

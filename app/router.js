@@ -1,5 +1,6 @@
 angular.module('nakApp').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-
+    'use strict';
+    
     $stateProvider
 
         .state('home', {
