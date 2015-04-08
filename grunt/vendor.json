@@ -1,7 +1,7 @@
 {
   "scripts": [
-    "vendor/jquery/dist/jquery.js",
-    "vendor/angular/angular.js",
-    "vendor/angular-ui-router/release/angular-ui-router.js"
+    "node_modules/jquery/dist/jquery.js",
+    "node_modules/angular/angular.js",
+    "node_modules/angular-ui-router/release/angular-ui-router.js"
   ]
 }

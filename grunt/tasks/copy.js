@@ -6,8 +6,9 @@ module.exports = {
       //Copy all the public files.
       { expand: true, cwd: 'public/', src: ['**'], dest: 'temp/' },
 
-      //Copy all the application files.
-      { expand: true, cwd: 'app/', src: ['**/*', '!index.html', '!**/styles/**'], dest: 'temp/app/' },
+      //Copy all the application template files.
+      //grunt-babel will do the copying of js files after compilation.
+      { expand: true, cwd: 'app/', src: ['**/*.html', '!index.html', '!**/styles/**'], dest: 'temp/app/' },
 
       //Copy the vendor script files
       { expand: true, flatten: true, src: vendorFiles.scripts, dest: 'temp/vendor/' },

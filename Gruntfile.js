@@ -17,6 +17,7 @@ module.exports = function(grunt) {
     'ngconstant:dev',
     'sass:dev',
     'copy:dev',
+    'babel:dev',
     'injector:dev'
   ]);
 
