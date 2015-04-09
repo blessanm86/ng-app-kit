@@ -39,7 +39,8 @@ module.exports = {
         }
     },
     files: [
-        {'temp/index.html': ['temp/vendor/**/*.js', 'temp/app/**/*.js']}
+        //{'temp/index.html': ['temp/vendor/**/*.js', 'temp/app/**/*.js']}
+        {'temp/index.html': ['temp/app/**/*.js']}
     ]
   },
   dist: {

@@ -1,6 +1,11 @@
-angular.module('nakApp.filters', []);
-angular.module('nakApp.services', []);
-angular.module('nakApp.directives', []);
+import 'angular';
+import 'angular-ui-router';
+import './config-generated';
+
+import filters from './filters';
+import services from './services';
+import directives from './directives';
+import controllers from './controllers';
 
 angular.module('nakApp', [
     'ui.router',
@@ -9,3 +14,11 @@ angular.module('nakApp', [
     'nakApp.services',
     'nakApp.directives',
 ]);
+
+import routerConfig from './router.js';
+angular.module('nakApp').config(routerConfig);
+
+filters();
+services();
+directives();
+controllers();

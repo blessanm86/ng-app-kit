@@ -1,2 +1,1 @@
-angular.module('nakApp.services').
-    value('version', '0.0.0');
+export default '0.0.0';

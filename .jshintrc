@@ -84,6 +84,7 @@
 
     // Custom Globals
     "globals"       : {
-        "angular": true
+        "angular": true,
+        "require": true
     }
 }

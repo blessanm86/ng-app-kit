@@ -1,4 +1,4 @@
-angular.module('nakApp').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+export default ['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
     'use strict';
     
     $stateProvider
@@ -22,4 +22,4 @@ angular.module('nakApp').config(['$stateProvider', '$urlRouterProvider', functio
 
     $urlRouterProvider.otherwise('/');
 
-}]);
+}];

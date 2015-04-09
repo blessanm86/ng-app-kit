@@ -1,10 +1,9 @@
-angular.module('nakApp')
-    .controller('HomeFruitsController', ['$scope', function($scope){
-        "use strict";
+export default ['$scope', function($scope){
+    "use strict";
 
-        var fruits = ['Apple', 'Peaches', 'Bananas'];
+    var fruits = ['Apple', 'Peaches', 'Bananas'];
 
-        $scope.items = {
-        	fruits
-        };
-    }]);
+    $scope.items = {
+    	fruits
+    };
+}];
