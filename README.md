@@ -1,6 +1,16 @@
 ng App Kit
 ---
 
+```
+Currently updating the whole app code and how dependcies are managed. The following are the feature planned
+- Support es6 and es6 modules via browserify and babelify. (Done)
+- Remove bower and use npm and browserify for frontend dependency management. (Done)
+- Replace jshint with eslint for better code formatting checks.
+- Clean up the old stuff and update README.
+
+Older versions are tagged.
+```
+
 A starting point for angular applications. Both the tool system and boilerplate is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit).
 
 Features
