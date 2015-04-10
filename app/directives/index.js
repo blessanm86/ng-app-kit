@@ -1,7 +1,10 @@
+import angular from 'angular';
+import appVersion from './app-version';
+
 export default function () {
 	'use strict';
 
-	var module = require('angular').module('nakApp.directives', []);
+	var module = angular.module('nakApp.directives', []);
 
-	module.directive('appVersion', require('./app-version'));
+	module.directive('appVersion', appVersion);
 }

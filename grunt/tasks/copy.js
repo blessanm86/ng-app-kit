@@ -1,4 +1,4 @@
-var vendorFiles = require('../vendor.json');
+//var vendorFiles = require('../vendor.json');
 
 module.exports = {
   dev: {
@@ -11,7 +11,7 @@ module.exports = {
       { expand: true, cwd: 'app/', src: ['**/*.html', '!index.html', '!**/styles/**'], dest: 'temp/app/' },
 
       //Copy the vendor script files
-      { expand: true, flatten: true, src: vendorFiles.scripts, dest: 'temp/vendor/' },
+      //{ expand: true, flatten: true, src: vendorFiles.scripts, dest: 'temp/vendor/' },
 
       //Copy the livereload script files
       { expand: true, flatten: true, src: 'vendor/livereload/dist/livereload.js', dest: 'temp/' },

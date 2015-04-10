@@ -1,4 +1,4 @@
-var vendorFiles = require('../vendor.json');
+//var vendorFiles = require('../vendor.json');
 
 module.exports = {
   dist: {
@@ -7,7 +7,7 @@ module.exports = {
     },
     files: [{
       'dist/assets/app.js': ['app/**/*.js'],
-      'dist/assets/vendor.js': vendorFiles.scripts
+      //'dist/assets/vendor.js': vendorFiles.scripts
     }],
   }
 };

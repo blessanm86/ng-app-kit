@@ -1,10 +1,10 @@
-var vendorFiles = require('../vendor.json');
+//var vendorFiles = require('../vendor.json');
 
 //Vendor files names in import order. Needed for script tag injection
-var vendorScripts = vendorFiles.scripts.map(function(arr){
-    var parts = arr.split('/');
-    return parts [parts.length-1];
-});
+// var vendorScripts = vendorFiles.scripts.map(function(arr){
+//     var parts = arr.split('/');
+//     return parts [parts.length-1];
+// });
 
 module.exports = {
   dev: {
