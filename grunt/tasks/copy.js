@@ -1,5 +1,3 @@
-//var vendorFiles = require('../vendor.json');
-
 module.exports = {
   dev: {
     files: [
@@ -7,11 +5,7 @@ module.exports = {
       { expand: true, cwd: 'public/', src: ['**'], dest: 'temp/' },
 
       //Copy all the application template files.
-      //grunt-babel will do the copying of js files after compilation.
       { expand: true, cwd: 'app/', src: ['**/*.html', '!index.html', '!**/styles/**'], dest: 'temp/app/' },
-
-      //Copy the vendor script files
-      //{ expand: true, flatten: true, src: vendorFiles.scripts, dest: 'temp/vendor/' },
 
       //Copy the livereload script files
       { expand: true, flatten: true, src: 'vendor/livereload/dist/livereload.js', dest: 'temp/' },
