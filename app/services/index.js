@@ -1,10 +1,10 @@
 import angular from 'angular';
 import version from './version';
 
-export default function () {
-	'use strict';
+export default function() {
 
-	var module = angular.module('nakApp.services', []);
+  var module = angular.module('nakApp.services', []);
 
-	module.value('version', version);
+  module.value('version', version);
+
 }

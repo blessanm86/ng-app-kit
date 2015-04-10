@@ -1,25 +1,24 @@
 export default ['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-    'use strict';
-    
-    $stateProvider
 
-        .state('home', {
-            url: '/',
-            templateUrl: './app/templates/home.html'
-        })
+  $stateProvider
 
-        .state('home.fruits', {
-            url: 'home/fruits',
-            templateUrl: './app/templates/home/fruits.html',
-            controller: 'HomeFruitsController'
-        })
+  .state('home', {
+    url: '/',
+    templateUrl: './app/templates/home.html'
+  })
 
-        .state('home.cars', {
-            url: 'home/cars',
-            templateUrl: './app/templates/home/cars.html',
-            controller: 'HomeCarsController'
-        });
+  .state('home.fruits', {
+    url: 'home/fruits',
+    templateUrl: './app/templates/home/fruits.html',
+    controller: 'HomeFruitsController'
+  })
 
-    $urlRouterProvider.otherwise('/');
+  .state('home.cars', {
+    url: 'home/cars',
+    templateUrl: './app/templates/home/cars.html',
+    controller: 'HomeCarsController'
+  });
+
+  $urlRouterProvider.otherwise('/');
 
 }];

@@ -1,9 +1,7 @@
-export default ['$scope', function($scope){
-    "use strict";
+export default ['$scope', function($scope) {
+  var fruits = ['Apple', 'Peaches', 'Bananas'];
 
-    var fruits = ['Apple', 'Peaches', 'Bananas'];
-
-    $scope.items = {
-    	fruits
-    };
+  $scope.items = {
+    fruits
+  };
 }];

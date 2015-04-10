@@ -1,6 +1,6 @@
-export default ['$scope', 'ENV', function($scope, ENV){
-    "use strict";
-    
-    console.info(ENV);
-    $scope.items = ['Mercedes', 'BMW', 'Audi'];
+export default ['$scope', 'ENV', function($scope, ENV) {
+
+  console.info(ENV);
+  $scope.items = ['Mercedes', 'BMW', 'Audi'];
+
 }];

@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'clean:dev',
-    'jshint:dev',
+    'eslint:dev',
     'ngconstant:dev',
     'sass:dev',
     'copy:dev',
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     'injector:dist',
     'connect:dist'
   ]);
-  
+
   grunt.registerTask('server', ['connect:dev']);
 
   grunt.initConfig(config);

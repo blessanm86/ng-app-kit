@@ -1,10 +1,10 @@
 import angular from 'angular';
 import interpolate from './interpolate';
 
-export default function () {
-	'use strict';
+export default function() {
 
-	var module = angular.module('nakApp.filters', []);
+  var module = angular.module('nakApp.filters', []);
 
-	module.filter('interpolate', interpolate);
+  module.filter('interpolate', interpolate);
+
 }
