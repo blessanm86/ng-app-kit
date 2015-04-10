@@ -23,11 +23,13 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dist', [
     'clean:dist',
-    'jshint:dev',
+    'eslint:dev',
     'ngconstant:dist',
     'sass:dev',
     'copy:dist',
+    'browserify:dist',
     'uglify:dist',
+    'clean:distPostCleanup',
     'injector:dist',
     'connect:dist'
   ]);

@@ -16,7 +16,7 @@ module.exports = {
         addRootSlash: false,
     },
     files: [
-        {'dist/index.html': ['dist/assets/vendor.js', 'dist/assets/app.js']}
+        {'dist/index.html': ['dist/assets/app.js']}
     ]
   }
 };

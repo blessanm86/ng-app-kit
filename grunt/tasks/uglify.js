@@ -1,10 +1,10 @@
 module.exports = {
   dist: {
     options: {
-      mangle: true
+      mangle: false
     },
     files: [{
-      'dist/assets/app.js': ['app/**/*.js']
+      'dist/assets/app.js': ['dist/assets/bundle.js']
     }],
   }
 };

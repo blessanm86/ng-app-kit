@@ -1,4 +1,5 @@
 module.exports = {
   dev: ['temp/**/*'],
-  dist: ['dist/**/*']
+  dist: ['dist/**/*'],
+  distPostCleanup: ['dist/assets/bundle.js']
 };

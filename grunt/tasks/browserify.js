@@ -7,10 +7,18 @@ module.exports = {
 	      'temp/app/bundle.js': ['app/app.js'],
 	    },
 	    options: {
-	       transform: ['babelify'],
+	        transform: ['babelify'],
             browserifyOptions: {
                 debug: true
             }
 	    }
+    },
+    dist: {
+        files: {
+          'dist/assets/bundle.js': ['app/app.js'],
+        },
+        options: {
+            transform: ['babelify']
+        }
     }
 };
