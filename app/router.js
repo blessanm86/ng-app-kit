@@ -1,5 +1,4 @@
 export default ['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-
   $stateProvider
 
   .state('home', {
@@ -20,5 +19,4 @@ export default ['$stateProvider', '$urlRouterProvider', function($stateProvider,
   });
 
   $urlRouterProvider.otherwise('/');
-
 }];

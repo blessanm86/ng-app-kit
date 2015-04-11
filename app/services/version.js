@@ -1,1 +1,5 @@
-export default '0.0.0';
+export default function version () {
+  return function() {
+    this.code = '0.0.0';
+  };
+}

@@ -1,6 +1,6 @@
-export default ['$scope', 'ENV', function($scope, ENV) {
-
-  console.info(ENV);
-  $scope.items = ['Mercedes', 'BMW', 'Audi'];
-
-}];
+export default function HomeCarsController () {
+  return ['$scope', 'ENV', function($scope, ENV) {
+    $scope.items = ['Mercedes', 'BMW', 'Audi'];
+    $scope.env = ENV;
+  }];
+}

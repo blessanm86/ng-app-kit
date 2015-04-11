@@ -1,10 +1,12 @@
 import angular from 'angular';
-import version from './version';
+
+import VersionService from './version.js';
+
 
 export default function() {
+  var app = angular.module('nakApp.services', []);
 
-  var module = angular.module('nakApp.services', []);
-
-  module.value('version', version);
-
+  
+  app.service(VersionService.name, VersionService());
+  
 }

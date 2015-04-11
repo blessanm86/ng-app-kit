@@ -1,9 +1,9 @@
-export default ['$scope', function($scope) {
+export default function HomeFruitsController () {
+  return ['$scope', function($scope) {
+    var fruits = ['Apple', 'Peaches', 'Bananas'];
 
-  var fruits = ['Apple', 'Peaches', 'Bananas'];
-
-  $scope.items = {
-    fruits
-  };
-
-}];
+    $scope.items = {
+      fruits
+    };
+  }];
+}
