@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'clean:dev',
-    'eslint:dev',
+    'eslint',
     'ngimporter',
     'ngconstant:dev',
     'sass:dev',
@@ -24,7 +24,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dist', [
     'clean:dist',
-    'eslint:dev',
+    'eslint',
+    'ngimporter',
     'ngconstant:dist',
     'sass:dev',
     'copy:dist',
