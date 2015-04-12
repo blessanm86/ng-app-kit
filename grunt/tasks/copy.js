@@ -11,7 +11,7 @@ module.exports = {
       { expand: true, flatten: true, src: 'vendor/livereload/dist/livereload.js', dest: 'temp/' },
 
       //Copy the css file
-      { expand: true, cwd: 'app/styles/', src: ['**/*.css'], dest: 'temp/assets' },
+      { expand: true, cwd: 'app/styles/', src: ['**/*.css', '**/*.css.map'], dest: 'temp/assets' },
 
       //Copy app html file.
       { expand: true, cwd: 'app/', src: 'index.html', dest: 'temp/' }

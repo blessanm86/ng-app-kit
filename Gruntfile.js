@@ -27,7 +27,7 @@ module.exports = function(grunt) {
     'eslint',
     'ngimporter',
     'ngconstant:dist',
-    'sass:dev',
+    'sass:dist',
     'copy:dist',
     'browserify:dist',
     'uglify:dist',

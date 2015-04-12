@@ -4,3 +4,4 @@ dist
 node_modules
 /app/config-generated.js
 /.sass-cache
+/app/styles/*.map
