@@ -73,5 +73,5 @@ Features, Issues Or Contributions
 * My email is blessenm@gmail.com
 * Pull requests are welcome.
 * [__LinkedIn Pofile__](http://in.linkedin.com/pub/blessan-mathew/24/605/730 "LinkedIn Profie")
-* [__Stack Overflow Pofile__](http://stackoverflow.com/users/548568/blessenm "Stack Overflow)
+* [__Stack Overflow Pofile__](http://stackoverflow.com/users/548568/blessenm "Stack Overflow")
 * [__Twitter Pofile__](https://twitter.com/blessenm86 "Twitter")
