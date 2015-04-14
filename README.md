@@ -5,7 +5,7 @@ ng App Kit
 Older versions are tagged and can be found in the releases section.
 ```
 
-A starting point for angular applications. This is a boilerplate + build scripts for angular applications. The build scripts is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit) and the boilerplate is a modified version of [angular-seed](https://github.com/angular/angular-seed). [More details about the current version of nAK can be read here]().
+A starting point for angular applications. This is a boilerplate + build scripts for angular applications. The build scripts is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit) and the boilerplate is a modified version of [angular-seed](https://github.com/angular/angular-seed). [More details about the current version of nAK can be read here](http://blessanmathew.com/2015/04/14/using-es6-modules-with-angular.html).
 
 Features
 
@@ -38,7 +38,9 @@ The cli commands are
     The distribution build can be found in the './dist' folder.
 
  4. grunt server or grunt connect:dev
-    Will start up a server and run the development version of the application. Use this along with the `grunt watch` command for the server to reload automatically based on the changes to the application.
+    Will start up a server and run the development version of the application.
+    Use this along with the `grunt watch` command for the server to reload automatically
+    based on the changes to the application.
 
  5. grunt connect:dist
     Will start up a server and run the distribution version of the application.
@@ -71,4 +73,5 @@ Features, Issues Or Contributions
 * My email is blessenm@gmail.com
 * Pull requests are welcome.
 * [__LinkedIn Pofile__](http://in.linkedin.com/pub/blessan-mathew/24/605/730 "LinkedIn Profie")
-* [__Stack Overflow Pofile__](http://stackoverflow.com/users/548568/blessenm "Stack Overflow
+* [__Stack Overflow Pofile__](http://stackoverflow.com/users/548568/blessenm "Stack Overflow)
+* [__Twitter Pofile__](https://twitter.com/blessenm86 "Twitter")

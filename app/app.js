@@ -2,6 +2,8 @@ import angular from 'angular';
 import 'angular-ui-router';
 import './config-generated';
 
+import routerConfig from './router.js';
+
 import filters from './filters';
 import services from './services';
 import directives from './directives';
@@ -16,7 +18,6 @@ angular.module('nakApp', [
     'nakApp.directives'
 ]);
 
-import routerConfig from './router.js';
 angular.module('nakApp').config(routerConfig);
 
 controllers();
