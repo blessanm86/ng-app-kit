@@ -5,7 +5,7 @@ ng App Kit
 Older versions are tagged and can be found in the releases section.
 ```
 
-A starting point for angular applications. This is a boilerplate + build scripts for angular applications. The build scripts is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit) and the boilerplate is a modified version of [angular-seed](https://github.com/angular/angular-seed). [More details about the current version of nAK can be read here](http://blessanmathew.com/2015/04/14/using-es6-modules-with-angular.html).
+A starting point for angular applications. This is a boilerplate + build scripts for angular applications. The build scripts is inspired by [Ember App Kit](https://github.com/stefanpenner/ember-app-kit) and the boilerplate is a modified version of [angular-seed](https://github.com/angular/angular-seed). [More details about the current version of nAK can be read here](https://blessanmathew.com/2015-04-14-using-es6-modules-with-angular).
 
 Features
 
